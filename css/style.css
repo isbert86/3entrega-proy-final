@@ -7,6 +7,7 @@ box-sizing: border-box;
 }
 
 .estiloHead {
+  color: black;
   background-image: url(../Imagenes/imgenppalgrande.jpg);
 }
 
@@ -92,6 +93,9 @@ ul .estiloRedes {
   max-height: 100px;
   
   
+}
+.Fixed{
+  color: black;
 }
 
 .estiloQuienes {
@@ -214,6 +218,11 @@ header nav ul li {
   text-decoration: none;
 }
 
+.cambiocolor-link{
+   color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
 /*---------------tablet----------*/
 @media screen and (max-width: 768px) {
   .Fixed, .pie, .estiloQuienes {
